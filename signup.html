@@ -1,0 +1,88 @@
+<html>
+<head>
+	<title>Sign up page</title>
+<style>
+	body{
+		margin:0%;
+		padding: 0%;
+		font-family: sans-serif;
+		background-image:url(../background.jpg);
+		background-size: cover;
+		background-position: center;
+	}
+.sign-up-form{
+	width: 300px;
+	box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+	padding: 20px;
+	margin:8% auto;
+	text-align: center;
+
+}
+.sign-up-form h1{
+	color: blue;
+	margin-bottom: 30px;
+}
+.input-box{
+	border-radius: 20px;
+	padding: 10px;
+	margin: 10px 0;
+	width: 100%;
+	border: 1px solid black;
+	outline: none;
+}
+button
+{
+	color: #fff;
+	width: 100%;
+	padding: 10px;
+	border-radius: 20px;
+	font-size: 15px;
+	margin: 10px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+.signup-btn{
+	background-color: blue;
+	color: :white;
+
+}
+a{
+	text-decoration: none;
+}
+hr{
+	margin-top: 20px;
+	width:80%;
+}
+.or{
+	background-color: white;
+	margin:-19px auto 10px;
+	width:30px;
+}
+img{
+	width:70px;
+	margin-top: -30px;
+}
+.signup-btnq
+{
+	background-color: skyblue;
+}
+</style>
+</head>
+<body style=background-image:url('5.jpg')>	
+	<div class ="sign-up-form">
+		<img src="user-icon.png">
+		<h1>Sign up now</h1>
+		<form>
+			<input type="email" class="input-box" placeholder="Your Email">
+			<input type="Password" class="input-box" placeholder="Your Password">
+			<p><span><input type="checkbox"></span>I agree to terms of services</p>
+			<button type="button" class="signup-btn" onclick="alert('Signed up successfully')">Sign in</button>
+			<hr>
+			<p class="or">Or</p>
+			<button type="button" class="signup-btnq"><a href="https://www.facebook.com/">Login with Facebook</a></button>
+			<p style=color:white font-size="20px">Do you have an account ?<a href="#"><b>Sign in</b></a></p>
+		</form>
+	</div>
+</body>
+</html>

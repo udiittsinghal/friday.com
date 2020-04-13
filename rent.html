@@ -1,0 +1,72 @@
+<html>
+<head>
+	<title>Upload details</title>
+	<style>
+		body{
+		margin:0%;
+		padding: 0%;
+		font-family: sans-serif;
+		background-image:url(../background.jpg);
+		background-size: cover;
+		background-position: center;
+	}
+.sign-up-form{
+	width: 300px;
+	box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+	padding: 20px;
+	margin:8% auto;
+	text-align: center;
+	
+
+}
+.sign-up-form h1{
+	color: blue;
+	margin-bottom: 30px;
+}
+.input-box{
+	border-radius: 20px;
+	padding: 10px;
+	margin: 10px 0;
+	width: 100%;
+	border: 1px solid black;
+	outline: none;
+}
+button
+{
+	color: #fff;
+	width: 100%;
+	padding: 10px;
+	border-radius: 20px;
+	font-size: 15px;
+	margin: 10px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+.signup-btn{
+	background-color: blue;
+	color: :white;
+
+}
+	</style>
+</head>
+<body style=background-image:url('3.jpg')>	
+	<div class ="sign-up-form">
+
+		<h1>Upload your details</h1>
+		<form>
+			<input type="Name" class="input-box" placeholder="Your name">
+			<input type="mobile" class="input-box" placeholder="Your mobile no">
+			<input type="location" class="input-box" placeholder="Your property location">
+			<input type="sqrtft" class="input-box" placeholder="Total square feet of your property">
+			<input type="budget" class="input-box" placeholder="Rent per month">
+			<br>
+			<p><b>Upload your property's photos below</b><br>
+			<input type="file" accept="image/*" >
+			<hr>
+			<button type="button" class="signup-btn" onclick="alert('Submission is successfully')">Submit</button>
+
+		</form>
+	</div>
+</body>
+</html>
